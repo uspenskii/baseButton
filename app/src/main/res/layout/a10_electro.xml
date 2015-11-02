@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Правила оказания медицинс-кой помощи при поражении электри-ческим током/поражении молнией:"
+            android:id="@+id/textView130"
+            android:background="#ffc9e4ec" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="\n1. Прекратить воздействие тока на по-страдавшего: выключить рубильник, выдернуть шнур из розетки, отбросить провод сухой палкой, перерубить провод топором с деревянной ручкой. Прикасаться к телу пострадавшего незащищенными руками при неотключенном электрическом токе опасно! \n 2. Если пострадавший без сознания, проверить дыхание и пульс, при их отсутствии приступить к сердечно-легочной реанимации.\n"
+            android:id="@+id/textView131"
+            android:textColor="#ff2b0b0b" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="правила сердечно-легочной реанимации"
+            android:id="@+id/button16"
+            android:onClick="onClickReanimation"
+            android:background="#ffacd8f6" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="\n3.Если пострадавший без сознания, но дыхание и сердечная деятельность сохранены, придать пострадавшему устойчивое положение на боку.\n"
+            android:id="@+id/textView132"
+            android:textColor="#ff2b0b0b" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Правила выполнения"
+            android:id="@+id/button17"
+            android:onClick="onClickComa"
+            android:background="#ffacd8f6" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="\n4. Вызвать скорую помощь.\n5. Ожоговые поверхности обрабаты-ваются так же, как при термических ожогах.\n"
+            android:id="@+id/textView133"
+            android:textColor="#ff2b0b0b" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Правила обработки термических ожогов"
+            android:id="@+id/button18"
+            android:onClick="onClickOjog"
+            android:background="#ffacd8f6" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="\n6. Когда пострадавший прийдет в сознание, уложить его на спину, укрыть, обеспечить покой.\n7 . При необходимости дать обезболивающее средство, если у пострадавшего нет на него аллергии."
+            android:id="@+id/textView134"
+            android:textColor="#ff2b0b0b" />
+    </LinearLayout>
+
+
+</ScrollView>

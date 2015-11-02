@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Правила оказания медицинской помощи при ранении живота:"
+            android:id="@+id/textView109"
+            android:background="#ffc9e4ec" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="1. Уложить пострадавшего, согнуть ноги в коленях, расстегнуть поясной ремень.\n2. Если из раны выступают внутрен-ние органы, нельзя их вправлять в брюшную полость. Обложить выпав-шие органы валиками из марлевых бинтов.\n3. Поверх раны наложить наложить асептическую повязку.\n4. Положить холод на повязку.\n5. Вызвать скорую медицинскую помощь или срочно доставить пострадавшего в больницу\n "
+            android:id="@+id/textView110"
+            android:textColor="#ff2b0b0b" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="                     НЕЛЬЗЯ!\n1. Извлекать торчащий из раны инородный предмет. Его необходимо зафиксировать в ране.\n2. Поить и кормить пострадав- шего."
+            android:id="@+id/textView111"
+            android:textColor="#ffff0731"
+            android:background="#fff6e6e9" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="При инородном предмете в ране"
+            android:id="@+id/button13"
+            android:onClick="onClickInorod"
+            android:background="#ffacd8f6" />
+    </LinearLayout>
+
+
+</ScrollView>

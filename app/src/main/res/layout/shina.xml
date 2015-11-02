@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Общие правила наложения шины:"
+            android:id="@+id/textView141"
+            android:background="#ffc9e4ec" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="1. В качестве шины можно использо-вать плоские узкие предметы: палки, доски, линейки, прутья, фанеру. Острые края и углы должны быть сглажены. Шину после наложения необходимо зафиксировать бинтами или пластырем. Шину при закрытых переломах накладывают поверх одежды.\n2. При открытых переломах нельзя прикладывать шину к местам, где выступают наружу костные отломки. Сначала наложить асептическую повязку на рану и лишь потом перебинтовывать шину.\n3. Шину на всем протяжении (исключая уровень перелома) прикрепить к конечности бинтом, плотно, но не очень туго, чтобы не нарушалось кровообращение. При переломе нижней конечности шины накладывать с двух сторон.\n4. При отсутствии шин или подруч-ных средств поврежденную ногу можно иммобилизировать, прибин-товав ее к здоровой ноге, а руку - к туловищу."
+            android:id="@+id/textView142"
+            android:textColor="#ff2b0b0b" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView30"
+            android:src="@drawable/shina1" />
+    </LinearLayout>
+
+
+</ScrollView>

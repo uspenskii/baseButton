@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Правила оказания медицинской помощи в случае перелома плечевой кости:"
+            android:id="@+id/textView"
+            android:background="#ffc9e4ec" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Пострадавший не может самостояте-льно удерживать поврежденную конечность, а малейшие движения причиняют сильнейшие страдания и боль,поэтому  следует как можно скорее зафиксировать поврежденную руку к груди и только затем предложить 2-3 таблетки анальгина.\n"
+            android:id="@+id/textView2"
+            android:textColor="#ff2b0b0b" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="286dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/perelom1"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="\nПЕРВОЕ Прибинтовать руку к туло-вищу или зафиксировать ее с туловищем любым возможным способом."
+            android:id="@+id/textView27"
+            android:textColor="#ff2b0b0b" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ВТОРОЕ Предложить 2-3 таблетки анальгина при отсутствии аллергии на лекарственные средства."
+            android:id="@+id/textView28"
+            android:textColor="#ff2b0b0b" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ТРЕТЬЕ Приложить к месту перелома холод. "
+            android:id="@+id/textView29"
+            android:textColor="#ff2b0b0b" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\nЕсли у пострадавшего перелом плечевой кости или костей предплечья сочетается с сильным кровотечением из раны на плече или предплечье следует сначала наложить кровоостанавливающий жгут на плечо  и только затем повязку на рану.  После этого зафиксировать с помощью косынки или транспортной шины. \n"
+            android:id="@+id/textView30"
+            android:textColor="#ffff0731"
+            android:background="#fff6e6e9" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Правила наложения жгута"
+            android:id="@+id/button"
+            android:onClick="onClickJgut"
+            android:background="#ffacd8f6" />
+    </LinearLayout>
+
+
+</ScrollView>

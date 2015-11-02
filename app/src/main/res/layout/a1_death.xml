@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Если нет сознания и нет пульса на сонной артерии:"
+            android:id="@+id/textView3"
+            android:background="#ffc9e4ec" />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="1.Убедиться в отсутствии пульса на сонной артерии.\n"
+        android:id="@+id/textView7"
+        android:textColor="#ff2b0b0b" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:id="@+id/imageView2"
+        android:src="@drawable/death1"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="                    НЕЛЬЗЯ!                                       Терять время на определение признаков дыхания"
+        android:id="@+id/textView8"
+        android:textColor="#ffe50006"
+        android:background="#fff6e6e9" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="\n2.Освободить грудную клетку от оде-жды и расстегнуть поясной ремень. \n "
+            android:id="@+id/textView4"
+            android:textColor="#ff2b0b0b" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:id="@+id/imageView3"
+            android:src="@drawable/death2"
+            android:scaleType="fitXY" />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView2" >
+
+        </ScrollView>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="\nНепрямой массаж сердца можно про-водить только на твёрдой поверхнос-ти. \n "
+                android:id="@+id/textView5"
+                android:textColor="#ff2b0b0b" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="                   НЕЛЬЗЯ!\nПроводить непрямой массаж сердца, не освободив грудную клетку и не расстегнув поясной ремень!"
+                android:id="@+id/textView9"
+                android:textColor="#ffff0731"
+                android:background="#fff6e6e9" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="\n3.Определить место расположения мечевидного отростка, как показано на рисунке. \n "
+                android:id="@+id/textView10"
+                android:textColor="#ff2b0b0b" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:id="@+id/imageView4"
+                android:src="@drawable/death3"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="\n4.Сделать 30 надавливаний на груд-ную клетку. Глубина продавливания грудной клетки должна  быть не менее 3-4 см.\n"
+                android:id="@+id/textView11"
+                android:textColor="#ff2b0b0b" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="                    НЕЛЬЗЯ!              Распологать ладонь на груди так, чтобы большой палец был направлен на спасателя"
+                android:id="@+id/textView12"
+                android:textColor="#ffff0731"
+                android:background="#fff6e6e9" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="\n5.Приступить к сердечно-лёгочной реанимации. Правой рукой обхватить подбородок так, чтобы пальцы, расположенные на нижней челюсти и щеках пострадавшего, смогли разжать и раздвинуть его губы. \n "
+                android:id="@+id/textView13"
+                android:textColor="#ff2b0b0b" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Обязательно левой рукой зажать нос!"
+                android:id="@+id/textView14"
+                android:textColor="#ffff0731"
+                android:background="#fff6e6e9" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="\nОбязательно запрокинуть голову пострадавшего и удерживать его голову в таком положении до окончания проведения вдоха. Плотно прижаться губами к губам пострадав-шего и сделать в него выдох. Каждый выдох нужно производить в течении 1 секунды. \n "
+                android:id="@+id/textView15"
+                android:textColor="#ff2b0b0b" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="319dp"
+                android:id="@+id/imageView5"
+                android:src="@drawable/death4"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="\n6.Выполнять комплекс реанимации:\nПри сужении зрачков, но отсутствии сердцебиения реанимацию нужно проводить до прибытия медперсонала - необходимо сделать 30 надавливаний на грудину, повернуть пострадавшего на живот, очистить пальцами ротовую полость. Затем сделать 30 надавливаний на грудину, и только затем сделать вдох."
+                android:id="@+id/textView16"
+                android:textColor="#ff2b0b0b" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="\nЕсли помощь оказывают группа спасателей:\n"
+                android:id="@+id/textView17" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="235dp"
+                android:id="@+id/imageView6"
+                android:src="@drawable/death5"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Первый спасатель:\nПроводит непрямой массаж сердца, отдаёт команду Вдох! и контролирует эффективность вдоха  по подъёму грудной клетки.\nВторой спасатель:\nПроводит искуственное дыхание, контролирует реакцию зрачков, пульс на сонной артерии.\nТретий спасатель:\nПриподнимает ноги пострадавшего для лучшего притока крови крови и готовится к смене партнёра, выполняющего непрямой массаж сердца."
+                android:id="@+id/textView18"
+                android:textColor="#ff2b0b0b" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

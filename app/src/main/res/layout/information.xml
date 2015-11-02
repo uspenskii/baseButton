@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Инструкция по использованию приложения:"
+            android:id="@+id/textView148" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="На вкдаке &quot;Помощь&quot; находится список возможных повреждений и информация по оказанию медицинской помощи при них."
+            android:id="@+id/textView156"
+            android:textColor="#e8000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="\nНа вкладке &quot;Модель&quot; находится изображение модели человека, на которой различными цветами выделены области поражения. Нажмите на кнопку с соответству-ющим цветом, чтобы получить информцию по оказанию медицин-ской помощи для выбраного участка тела."
+            android:id="@+id/textView157"
+            android:textColor="#e8000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="\nНа вкладке карта отображается ваше местоположение и адрес, а так же местоположение травмпунктов в г. Москва с возможностью проложить маршрут к ним."
+            android:id="@+id/textView158"
+            android:textColor="#e8000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="\nНа верхней панели находятся четыре кнопки: \n1. Кнопка быстрого вызова скорой помощи. \n2. Инструкция по использованию приложения. \n3. Персональные данные о пользо-вателе. \n4. Информация о приложении."
+            android:id="@+id/textView159"
+            android:textColor="#e8000000" />
+    </LinearLayout>
+
+
+</ScrollView>

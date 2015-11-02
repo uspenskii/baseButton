@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Правила оказания первой помощи  при сильном кровотечении  из нижней конечности:  "
+            android:id="@+id/textView81"
+            android:background="#ffc9e4ec" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\nЕсли лужа крови возле постра-давшего в диаметре превыша-ет метр, то она потеряла больше литра крови - это уже опасная для жизни кровопотеря."
+            android:id="@+id/textView82"
+            android:textColor="#ffff0731"
+            android:background="#fff6e6e9" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\nЕсли кровотечение из бедренной артерии продолжа-ется более 2-х минут, пострадавшие не выживают.\n "
+            android:id="@+id/textView83"
+            android:textColor="#ffff0731"
+            android:background="#fff6e6e9" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="242dp"
+            android:id="@+id/imageView23"
+            android:src="@drawable/krovotech5"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="\n1. Прижать бедренную артерию кулаком чуть ниже паховой складки. Если первая попытка оказалась неудачной, то сместить кулак чуть выше или ниже и найти точку эффективного прижатия, на которую затем приложить опорный твёрдый предмет."
+            android:id="@+id/textView84"
+            android:textColor="#ff2b0b0b" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView24"
+            android:src="@drawable/krovotech6" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="2. Наложить жгут на бедро через гладкий твёрдый предмет, например, скатку бинта, и убедиться, что кровотечение остановлено. Вложить записку с указанием времени наложения жгута."
+            android:id="@+id/textView85"
+            android:textColor="#ff2b0b0b" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView25"
+            android:src="@drawable/krovotech7" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Правила наложения жгута"
+            android:id="@+id/button7"
+            android:onClick="onClickJgut"
+            android:background="#ffacd8f6" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\nЕсли прибытие медицинского персонала ожидается в течение нескольких часов,то ни в коем случае не снимать жгут  до прибытия медицин-ских работников, чтобы избежать риска неудачного повторного наложения жгута и тем самым подвергать смер-тельной опасности пострадав-шего.  "
+            android:id="@+id/textView86"
+            android:textColor="#ffff0731"
+            android:background="#fff6e6e9" />
+    </LinearLayout>
+
+
+</ScrollView>

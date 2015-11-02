@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="                     НЕЛЬЗЯ!               Извлекать любой инородный предмет, торчащий из раны.\n"
+            android:id="@+id/textView112"
+            android:textColor="#ffff0731"
+            android:background="#fff6e6e9" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Правила оказания медицинской помощи при инородном теле в ране:"
+            android:id="@+id/textView113"
+            android:background="#ffc9e4ec" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="1. Наличие инородного тела в ране не влияет на тактику остановки крово-течения. Давящая повязка при этом накладывается крестообразно вокруг инородного тела.\n2. Зафиксировать инородное тело между двумя валиками из бинта и прикрепить их лейкопластырем к коже или прибинтовать.\n "
+            android:id="@+id/textView114"
+            android:textColor="#ff2b0b0b" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="260dp"
+            android:id="@+id/imageView29"
+            android:src="@drawable/ranaz1" />
+
+    </LinearLayout>
+
+
+</ScrollView>

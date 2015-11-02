@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Правила оказания медицинской помощи пострадавшему с черепно-мозговой травмой:"
+            android:id="@+id/textView70"
+            android:background="#ffc9e4ec" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="1. Уложить пострадавшего горизонтально на спину на твёрдую поверхность\n2. Вызвать скорую медицинскую помощь.\n3. Если на голове кровоточащая рана, остановить кровотечение. При этом избегать прямого давления на рану, не прижимать ее тампонами и тугими повязками. Инородные тела из раны не доставать!\n4. Приложить холод к месту ушиба головы.\n5. Если пострадавший в сознании, запретить ему двигаться.\n6. Если пострадавший без сознания, проверить дыхание и пульс, при их отсутствии приступить к сердечно-легочной реанимации.\n7. Зафиксировать шейный отдел позвоночника, обложив его по бокам свернутыми одеялами или чем-либо подобным.\n8. Не давать есть и пить.\n9. Не перемещать пострадавшего без крайней необходимости.\n"
+            android:id="@+id/textView71"
+            android:textColor="#ff2b0b0b" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Правила сердечно-легочной реанимации"
+            android:id="@+id/button9"
+            android:onClick="onClickReanimation"
+            android:background="#ffacd8f6" />
+    </LinearLayout>
+
+
+</ScrollView>

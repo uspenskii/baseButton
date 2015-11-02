@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Правила наложения жгута:\n"
+            android:id="@+id/textView135"
+            android:background="#ffc9e4ec" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="1. Перед наложением жгута следует приподнять конечность.\n2. Жгут накладывают как можно ближе к ране.\n3. Под жгут необходимо подложить ткань (одежду).\n4. При наложении жгута делают 2-3 тура, равномерно растягивая его, причем туры не должны ложиться один на другой.\n5. После наложения жгута обязательно указать точное время его наложения.\n6. Часть тела, где наложен жгут, должна быть доступна для осмотра.\n7. Снимать жгут нужно постепенно ослабляя его, с предварительным обезболи-ванием. "
+            android:id="@+id/textView136" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\nКритериями правильно наложенного жгута являются: "
+            android:id="@+id/textView137" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="1. Остановка кровотечения.\n2. Прекращение периферической пульсации.\n3. Бледная и холодная конечность.\n"
+            android:id="@+id/textView138"
+            android:textColor="#ff2b0b0b" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="                      НЕЛЬЗЯ!\nДержать жгут более 2 часов на нижних конечностях и 1,5 часа на верхних. В противном случае возможно развитие некрозов на конечности вследствие длительной ее ишемии."
+            android:id="@+id/textView139"
+            android:textColor="#ffff0731"
+            android:background="#fff6e6e9" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="                                                                                       При необходимости длительной транспортировки пострадавшего жгут каждый час распускают примерно на 10-15 минут, заменяя этот метод другим временным способом остановки кровотечения (пальцевое прижатие). "
+            android:id="@+id/textView140"
+            android:textColor="#ff2b0b0b" />
+    </LinearLayout>
+
+
+</ScrollView>

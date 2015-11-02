@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Общие правила транспорти-ровки пострадавшего:"
+            android:id="@+id/textView6"
+            android:background="#ffc9e4ec" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="450dp"
+            android:id="@+id/imageView31"
+            android:src="@drawable/transport1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="1. При неповрежденном шейном отделе позвоночника голова пос-традавшего поворачивается набок.\n2. При подозрении на повреждение шейного отдела позвоночника — иммобилизация головы вместе с шеей. \n3. При движении вверх по лестнице (при вносе в салон транспорта) пострадавшего переносят головой вперед.\n4. При движении вниз по лестнице (при выносе из транспорта) пострадавше-го переносят ногами вперед.\n5. При перемещении пострадавшего с большой потерей крови его ноги должны быть выше головы."
+            android:id="@+id/textView145"
+            android:textColor="#ff2b0b0b" />
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fffdfffd">
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Фамилия и имя:"
+            android:id="@+id/textView149" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Группа крови:"
+            android:id="@+id/textView150" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Аллергия на:"
+            android:id="@+id/textView151" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Контактные данные родствен-ников или знакомых:"
+            android:id="@+id/textView152" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Дополнительные данные:"
+            android:id="@+id/textView153" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText5" />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:text="Сохранить"
+            android:id="@+id/button29"
+            android:layout_gravity="center"
+            android:textColor="#fffbf9ff"
+            android:background="#ff52d034"
+            android:onClick="save"
+            android:nestedScrollingEnabled="false" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:text="New Button"
+            android:id="@+id/button30"
+            android:layout_gravity="right"
+            android:visibility="invisible" />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:text="Просмотреть \nсохраненные данные"
+            android:id="@+id/button"
+            android:layout_gravity="center"
+            android:background="#ff3e8be1"
+            android:onClick="Perehod"
+            android:textColor="#fffbf9ff" />
+
+    </LinearLayout>
+
+
+</ScrollView>

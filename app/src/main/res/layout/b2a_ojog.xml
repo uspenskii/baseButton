@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="При поражении любой агрессивной жидкостью - прекратить воздействие химического вещества на кожу (снять пропитанную одежду);\nЗатем промывать кожу под струей холодной воды до прибытия медперсонала.\n"
+            android:id="@+id/textView58"
+            android:textColor="#ff2b0b0b"
+            android:textSize="20dp"
+            android:background="#ffc9e4ec" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView18"
+            android:src="@drawable/ojogterm6" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Для уменьшения боли дать таблетку анальгина (если у пострадавшего нет аллергической реакции на анальгин)     Дать пострадавшему обильное теплое сладкое питье."
+            android:id="@+id/textView60"
+            android:textColor="#ff2b0b0b" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\n                      НЕЛЬЗЯ!\nПрокалывать пузыри, прика-саться к месту ожога руками, прикла-дывать пластырь, лёд, обраба-тывать рану кремами, мазями, присыпками, йодом, спиртом, промывать место ожога водой при ожогах нега-шеной известью."
+            android:id="@+id/textView59"
+            android:textIsSelectable="false"
+            android:textColor="#ffff0731"
+            android:background="#fff6e6e9" />
+    </LinearLayout>
+
+
+</ScrollView>

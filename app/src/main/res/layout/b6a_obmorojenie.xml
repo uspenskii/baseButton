@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Симптомы:"
+            android:id="@+id/textView120"
+            android:background="#ffc9e4ec" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="1. Сонливость, слабость, заторможен- ность.\n2. Посинение или побледнение губ.\n3. Кожные покровы бледные, холодные.\n 4. Озноб, неконтролируемая мышечная дрожь.\n5. Слабый пульс.\n6. Понижение температуры тела.\n"
+            android:id="@+id/textView121"
+            android:textColor="#ff2b0b0b" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="                      НЕЛЬЗЯ!\n1. Использовать источники тепла, температура которых превышает 40 градусов.\n2. Давать внутрь алкоголь.\n"
+            android:id="@+id/textView122"
+            android:textColor="#ffff0731"
+            android:background="#fff6e6e9" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Правила оказания медицинской помощи при общем переохлаждении:"
+            android:id="@+id/textView123"
+            android:background="#ffc9e4ec" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="1. Прекратить дальнейшее охлаждение - как можно быстрее доставить пострадавшего в теплое помещение.\n2. Снять мокрую и промерзшую одежду и обувь, переодеть в сухую и теплую.\n3. Согревание должно быть постепен-ным. \n4. Дать обильное сладкое питье, накормить горячей пищей.\n5. При наличии признаков обморожения оказать соответствую-щую помощь.\n6. Обратиться к врачу.\n"
+            android:id="@+id/textView124"
+            android:textColor="#ff2b0b0b" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Помощь при обморожении"
+            android:id="@+id/button15"
+            android:onClick="onClickObmoroj"
+            android:background="#ffacd8f6" />
+    </LinearLayout>
+
+
+</ScrollView>

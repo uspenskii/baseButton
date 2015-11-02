@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Правила оказания медицинской помощи при травмах грудной клетки:"
+            android:id="@+id/textView90"
+            android:background="#ffc9e4ec" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="1. Придать пострадавшему полусидячее положение."
+            android:id="@+id/textView91"
+            android:textColor="#ff2b0b0b" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView26"
+            android:src="@drawable/travm1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="2. Запретить пострадавшему двигаться. \n3. Если есть кровоточащая рана, остановить кровотечение. При этом не стягивать грудь тугим бинтова-нием.\n"
+            android:id="@+id/textView92"
+            android:textColor="#ff2b0b0b" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ранение грудной клетки"
+            android:id="@+id/button11"
+            android:onClick="onClickGrud"
+            android:background="#ffacd8f6" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="\n4. Приложить холод к поврежденному участку.\n5. Вызвать скорую медицинскую помощь или доставить пострадавшего в больницу."
+            android:id="@+id/textView93"
+            android:textColor="#ff2b0b0b" />
+
+    </LinearLayout>
+
+
+</ScrollView>

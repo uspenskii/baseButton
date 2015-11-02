@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Правила оказания медицинской помощи при травмах живота:"
+            android:id="@+id/textView94"
+            android:background="#ffc9e4ec" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="1. Уложить пострадавшего, согнуть ноги в коленях, расстегнуть поясной ремень.\n2. Положить холод на живот.\n3. Для утоления жажды смачивать губы пострадавшего.\n4. При рвоте повернуть пострадав-шего на бок, при этом ноги постра-давшего должны быть попрежнему согнуты в коленях.\n"
+            android:id="@+id/textView95"
+            android:textColor="#ff2b0b0b"
+            android:layout_weight="0.86" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="                      НЕЛЬЗЯ!\nПоить и кормить пострадав-шего."
+            android:id="@+id/textView96"
+            android:textColor="#ffff0731"
+            android:background="#fff6e6e9" />
+    </LinearLayout>
+
+
+</ScrollView>

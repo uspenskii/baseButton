@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Если нет сознания, но есть пульс на сонной артерии:"
+            android:id="@+id/textView19"
+            android:textColor="#ff2b0b0b"
+            android:background="#ffc9e4ec" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Не следует терять время на определе-ние признаков дыхания. Достаточно произвести попытку определения пульса на сонной артерии, чтобы сделать вывод о наступлении комы. Если во время определения пульса на сонной артерии пострадавшый отреагирует взглядом, стоном или любыми другими действиями, то можно сделать безошибочный вывод, что он в сознаниии."
+            android:id="@+id/textView20"
+            android:textColor="#ff2b0b0b" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=" \nЕсли у пострадавшего под-твердились признаки комы нужно немедленно повернуть его на живот, иначе  он в любую секунду может захлеб-нуться рвотными массами или удавиться собственным язы-ком.После чего уже можно вызвать скорую помощь!"
+            android:id="@+id/textView21"
+            android:textColor="#ffff0731"
+            android:background="#fff6e6e9" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=" \nПравила выполнения граждан-ского поворота спасения:\n"
+            android:id="@+id/textView22" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="219dp"
+            android:id="@+id/imageView7"
+            android:src="@drawable/coma1"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="\nПЕРВОЕ Завести ближнюю к себе руку пострадавшему за его голову. Заведенная за голову рука пострада-вшего не только страхует шейный отдел позвоночника, но и значитель-но облегчает поворот тела. В состоя-нии комы невозможно определить повреждения шейного отдела позвоночника. Заведенная за голову рука страхует шейный отдел позвоно-чника от опасных боковых смещений во время поворота на живот.\n"
+            android:id="@+id/textView23"
+            android:textColor="#ff2b0b0b" />
+
+        <ImageView
+            android:layout_width="416dp"
+            android:layout_height="220dp"
+            android:id="@+id/imageView8"
+            android:src="@drawable/coma2"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="\nВТОРОЕ Одной рукой взяться за дальнее от себя плечо, а другой — за поясной ремень или бедро пострадавшего.\n"
+            android:id="@+id/textView24"
+            android:textColor="#ff2b0b0b" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView9"
+            android:src="@drawable/coma3"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="\nТРЕТЬЕ Повернуть пострадавшего на живот с подстраховкой шейного отдела позвоночника. Очистить паль-цами или салфеткой ротовую поло-сть и надавить на корень языка. Когда челюсти пострадавшего сжаты, не следует пытаться их разжимать. Плотно стиснутые зубы не препятст-вуют прохождению воздуха.\n"
+            android:id="@+id/textView25"
+            android:textColor="#ff2b0b0b" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView10"
+            android:src="@drawable/coma4"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="\nЧЕТВЕРТОЕ Приложить холод к голове и оставить в таком положении до прибытия бригады скорой помощи. Использование холода значительно снижает скорость развития отека головного мозга и защищает его от гибели."
+            android:id="@+id/textView26"
+            android:textColor="#ff2b0b0b" />
+    </LinearLayout>
+
+</ScrollView>

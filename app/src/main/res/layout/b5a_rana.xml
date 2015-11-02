@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="                     НЕЛЬЗЯ!\n1. Извлекать торчащий из раны инородный предмет. Его необходимо зафиксировать в ране. \n2. Поить и кормить пострадав- шего.\n"
+            android:id="@+id/textView106"
+            android:textColor="#ffff0731"
+            android:background="#fff6e6e9" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="При инородном предмете в ране"
+            android:id="@+id/button14"
+            android:onClick="onClickInorod"
+            android:background="#ffacd8f6" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Оказание медицинской помощи при ранении грудной клетки:"
+            android:id="@+id/textView107"
+            android:background="#ffc9e4ec" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="1. Придать пострадавшему полусидячее положение, просить помолчать.\n2. При отсутствии в ране инородного предмета прижать ладонь к ране, чтобы закрыть в нее доступ воздуха. Если рана сквозная, закрыть входное и выходное отверстия.\n3. Закрыть рану воздухонепроницае-мым материалом, чтобы герметизи-ровать рану,зафиксировать этот материал повязкой или пластырем. Заклеивать рану следует на максимально глубоком выдохе.\n4. Приложить холод к ране поверх повязки.\n5. Вызвать скорую медицинскую помощь или срочно доставить пострадавшего в больницу"
+            android:id="@+id/textView108"
+            android:textColor="#ff2b0b0b" />
+    </LinearLayout>
+
+
+</ScrollView>

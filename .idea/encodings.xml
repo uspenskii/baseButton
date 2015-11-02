@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/uspenskii/basebutton/MainActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/uspenskii/basebutton/a10_electro.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/uspenskii/basebutton/a1_death.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/uspenskii/basebutton/a2_coma.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/uspenskii/basebutton/a3_transport.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/uspenskii/basebutton/a4_perelom.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/uspenskii/basebutton/a5_ojog.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/uspenskii/basebutton/a6_krovotech.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/uspenskii/basebutton/a7_travma.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/uspenskii/basebutton/a8_rana.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/uspenskii/basebutton/a9_obmorojenie.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/uspenskii/basebutton/helpActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/uspenskii/basebutton/modelActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/uspenskii/basebutton/one.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

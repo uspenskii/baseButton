@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="                     НЕЛЬЗЯ!\n1. Тереть, греть глаз.\n2. Удалять инородные предметы.\n"
+            android:id="@+id/textView115"
+            android:textColor="#ffff0731"
+            android:background="#fff6e6e9" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Правила оказания медицинской помощи при ранении глаза:"
+            android:id="@+id/textView116"
+            android:background="#ffc9e4ec" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="1. Уложить пострадавшего.\n2. Закапать антибактериальные глазные капли.\n3. Закрыть поврежденный глаз стерильной марлевой салфеткой.\n4. Наложить повязку на оба глаза.\n5. При наличии в глазу инородного предмета, не удалять его, закрыть защитным колпачком (пластиковым стаканчиком) и зафиксировать бинтом.\n6. Вызвать скорую медицинскую помощь или срочно доставить пострадавшего в больницу."
+            android:id="@+id/textView117"
+            android:textColor="#ff2b0b0b" />
+    </LinearLayout>
+
+
+</ScrollView>

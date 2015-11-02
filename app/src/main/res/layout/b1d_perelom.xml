@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Правила оказания медицинской помощи в случае  перелома костей предплечья:"
+            android:id="@+id/textView31"
+            android:background="#ffc9e4ec" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\nВо всех случаях повреждения костей верхней кончности сначала следует зафиксиро-вать конечность и только затем предложить обезболи-вание.\n"
+            android:id="@+id/textView32"
+            android:textColor="#ffff0731"
+            android:background="#fff6e6e9" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/imageView11"
+            android:src="@drawable/perelom2"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="\nПЕРВОЕ Наложить шину и зафикси-ровать руку косынкой."
+            android:id="@+id/textView33"
+            android:textColor="#ff2b0b0b" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ВТОРОЕ Предложить 2-3 таблетки анальгина при отсутствии аллергии на лекарственные средства."
+            android:id="@+id/textView34"
+            android:textColor="#ff2b0b0b" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ТРЕТЬЕ Приложить холод к месту перелома.\n "
+            android:id="@+id/textView35"
+            android:textColor="#ff2b0b0b" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Правила наложения шины"
+            android:id="@+id/button8"
+            android:onClick="onClickShina"
+            android:background="#ffacd8f6" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="\nЕсли у пострадавшего есть аллергия на лекарственные средства или их нет, можно предложить 50 мл водки при условии, что нет запаха алкоголя  изо рта потерпевшего и обязательно отметить, что алкоголь дан для оказания помощи после получения травмы.\n"
+            android:id="@+id/textView36"
+            android:textColor="#ff2b0b0b" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="              НЕДОПУСТИМО!               Предлагать алкоголь в качес-тве противошокового средства  лицам до 18-ти лет,  при наличии  любого кровоте-чения,  температуре воздуха ниже 15 градусов, лицам, прошедшим лечение от алкоголизма."
+            android:id="@+id/textView37"
+            android:textColor="#ffff0731"
+            android:background="#fff6e6e9" />
+    </LinearLayout>
+
+</ScrollView>

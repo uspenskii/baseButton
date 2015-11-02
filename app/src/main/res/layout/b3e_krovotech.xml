@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="При ранениях шеи необходимо, как можно скорее, сделать экстренную герметизацию раны любой чистой тканью или пальцем."
+            android:id="@+id/textView74"
+            android:textColor="#ffff0731"
+            android:background="#fff6e6e9" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:id="@+id/imageView20"
+            android:src="@drawable/krovotech2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Правила оказания медицинской помощи при ранении шеи:"
+            android:id="@+id/textView119"
+            android:background="#ffc9e4ec" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="1. Усадить пострадавшего во избежании падения в случае развития обморока.\n2. Прижать рану пальцем. Если есть возможность использовать ворот-ник, следует прижать рану через ткань воротника. Подложить под палец любую, много раз сложенную ткань, или валик из бинта.\n3. Прижать к ране скатку бинта. Многослойная ткань пропитается кровью и станет герметичной для воздуха. Если в течение 5-7 секунд рану не герметизировать, то пострадавшая может погибнуть от воздушной эмболии.\n4. С помощью жгута зафиксировать бинт к ране. Жгут, наложенный таким образом, можно держать, не снимая, в течение многих часов и даже сутки. Снимать жгут могут только медицинские работники на операционном столе.\n"
+            android:id="@+id/textView75"
+            android:textColor="#ff2b0b0b" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Правила наложения жгута"
+            android:id="@+id/button5"
+            android:onClick="onClickJgut"
+            android:background="#ffacd8f6" />
+
+    </LinearLayout>
+
+
+</ScrollView>

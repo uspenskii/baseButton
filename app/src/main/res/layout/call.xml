@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#ffdefee5">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Правила вызова скорой помощи:"
+        android:id="@+id/textView146"
+        android:textSize="26dp"
+        android:background="#ff7ef18c" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Сообщив точный адрес, возраст, а так же правильно сформулировав причину вызова Вы сократите время на прием вызова, позволите диспетчеру правильно определить повод и экстренность вызова, что даст возможность направить ближайшую профильную бригаду.\n"
+        android:id="@+id/textView147"
+        android:textColor="#e8000000" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="вызвать скорую помощь"
+        android:id="@+id/button28"
+        android:layout_gravity="center_horizontal"
+        android:onClick="zvonok"
+        android:layout_weight="0.13"
+        android:background="#ff11d233"
+        android:textColor="#fff4f4f6"
+        android:textSize="24dp" />
+</LinearLayout>

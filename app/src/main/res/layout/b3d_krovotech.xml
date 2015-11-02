@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="               НЕДОПУСТИМО!                   Использовать для остановки кровотечения пальцевое прижатие, особенно, в области височных костей.\n"
+            android:id="@+id/textView72"
+            android:textColor="#ffff0731"
+            android:background="#fff6e6e9" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Правила оказания медицинской помощи при ранении головы:"
+            android:id="@+id/textView118"
+            android:background="#ffc9e4ec" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="1. Усадить пострадавшего во избежании падения в случае развития обморока.\n2. Прижать к ране бинт для ее герметизации. Из-за угрозы попада-ния воздуха в вены, ни  в коем случае нельзя менять скатку бинта, даже в случае  сильного пропитывания кровью. Следует поверх,  пропитан-ного кровью бинта, приложить чистый.\n3. Зафиксировать бинт  шапкой-ушанкой, бейсболкой, косынкой или эластичным сетчатым трубчатым бинтом. Если не возникает проблем с наложением бинтовой повязки «Шапочка Гиппократа», то желательно ее наложить. Однако следует учитывать, что на бинтование потребуется 5-7 минут и не менее двух бинтов.\n "
+            android:id="@+id/textView73"
+            android:textColor="#ff2b0b0b" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="253dp"
+            android:id="@+id/imageView19"
+            android:src="@drawable/krovotech1"
+            android:scaleType="fitXY" />
+    </LinearLayout>
+
+
+</ScrollView>

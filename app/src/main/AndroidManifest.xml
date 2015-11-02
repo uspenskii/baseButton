@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.uspenskii.basebutton" >
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!--
+ The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but are recommended.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/heart"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="MedHelper" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".helpActivity" />
+        <activity android:name=".modelActivity" />
+        <activity android:name=".mapActivity" />
+        <activity android:name=".one" />
+        <activity android:name=".two" />
+        <activity android:name=".a1_death" />
+        <activity android:name=".a2_coma" />
+        <activity android:name=".a3_transport" />
+        <activity android:name=".a4_perelom" />
+        <activity android:name=".a5_ojog" />
+        <activity android:name=".a6_krovotech" />
+        <activity android:name=".a7_travma" />
+        <activity android:name=".a8_rana" />
+        <activity android:name=".a9_obmorojenie" />
+        <activity android:name=".a10_electro" />
+        <activity android:name=".b1a_perelom" />
+        <activity android:name=".b1b_perelom" />
+        <activity android:name=".b1c_perelom" />
+        <activity android:name=".b1d_perelom" />
+        <activity android:name=".b1e_perelom" />
+        <activity android:name=".b1f_perelom" />
+        <activity android:name=".b2a_ojog" />
+        <activity android:name=".b2b_ojog" />
+        <activity android:name=".b3a_krovotech" />
+        <activity android:name=".b3b_krovotech" />
+        <activity android:name=".b3c_krovotech" />
+        <activity android:name=".b3d_krovotech" />
+        <activity android:name=".b3e_krovotech" />
+        <activity android:name=".b3f_krovotech" />
+        <activity android:name=".b3g_krovotech" />
+        <activity android:name=".b4a_travma" />
+        <activity android:name=".b4b_travma" />
+        <activity android:name=".b4c_travma" />
+        <activity android:name=".b4d_travma" />
+        <activity android:name=".b4e_travma" />
+        <activity android:name=".b4f_travma" />
+        <activity android:name=".b5a_rana" />
+        <activity android:name=".b5b_rana" />
+        <activity android:name=".b5c_rana" />
+        <activity android:name=".b5d_rana" />
+        <activity android:name=".b6a_obmorojenie" />
+        <activity android:name=".b6b_obmorojenie" />
+        <activity android:name=".c1a_golova" />
+        <activity android:name=".c1b_sheia" />
+        <activity android:name=".c1c_plecho" />
+        <activity android:name=".c1d_grud" />
+        <activity android:name=".c1e_predplecho" />
+        <activity android:name=".c1f_jivot" />
+        <activity android:name=".c1g_kist" />
+        <activity android:name=".c1h_bedro" />
+        <activity android:name=".c1i_stopa" />
+        <activity android:name=".jgut" />
+        <activity android:name=".shina" />
+        <activity android:name=".call" />
+        <activity android:name=".information" />
+        <activity android:name=".profile" />
+        <activity android:name=".ybasedan" />
+
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" >
+        </activity>
+    </application>
+
+</manifest>

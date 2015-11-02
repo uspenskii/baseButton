@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Оказание медицинской помощи при повреждениях позвоночника:"
+            android:id="@+id/textView97"
+            android:background="#ffc9e4ec" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="1. Пострадавшего лучше не трогать, но если нужно перенести его на другое место, то использовать только твердые носилки, щиты, двери.\n2. Дать пострадавшему обезболиваю-щее (Анальгин, Пенталгин, Ревалгин), если у пострадавшего нет на них аллергических реакций и обеспечить ему полный покой.\n"
+            android:id="@+id/textView98"
+            android:textColor="#ff2b0b0b" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="           КАТЕГОРИЧЕСКИ\n            ЗАПРЕЩАЕТСЯ!!!\n\n1.Сажать больного.\n2. Ставить его на ноги.\n3. Тянуть его за ноги и руки.\n4. Пытаться поставить шейные или какие бы то ни было другие позвонки на место самостоятельно. \n5. Давать лекарства постра-давшему с нарушением функции глотания или потерей сознания.\n6. Транспортировать больного в стационар сидя."
+            android:id="@+id/textView99"
+            android:textColor="#ffff0731"
+            android:background="#fff6e6e9" />
+    </LinearLayout>
+
+
+</ScrollView>

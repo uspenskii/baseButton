@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Признаки сдавливания поя-вятся через 15 минут после освобождения сдавленной конечности, если не будут выполнены указанные ниже условия:"
+            android:id="@+id/textView100"
+            android:background="#ffc9e4ec" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="\n1. Резкое ухудшение состояния постра-давшего.\n2. Появление отека конечности с исчезновением рельефа мышц.\n3. Отсутствие пульса у лодыжек.\n4. Появление розовой или красной мочи."
+            android:id="@+id/textView101"
+            android:textColor="#ff2b0b0b" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView27"
+            android:src="@drawable/travm2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="При наличии возможности вызвать спасателей не следует убирать тяжесть до их прибытия!"
+            android:id="@+id/textView102"
+            android:textColor="#ffff0731"
+            android:background="#fff6e6e9" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="\nДо освобождения от сдавливания:\n1. Обложить придавленнные конечности пакетами со льдом, снегом или холодной водой.\n2. Дать таблетку Анальгина, если у пострадавшего нет на него аллерги-ческой реакции, и обильное теплое щелочное питье."
+            android:id="@+id/textView103"
+            android:textColor="#ff2b0b0b" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView28"
+            android:src="@drawable/travm3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="После освобождения от сдавливания:\n1. Туго забинтовать поврежденные конечности.\n2. Наложить шины.\n3. Приложить холод к поврежденным конечностям.\n4. Продолжать давать обильное теплое щелочное питье до прибытия врача.\n"
+            android:id="@+id/textView104"
+            android:textColor="#ff2b0b0b" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Правила наложения шины"
+            android:id="@+id/button12"
+            android:onClick="onClickShina"
+            android:background="#ffacd8f6" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\n              НЕДОПУСТИМО!\n1. Освобождать сдавленные конечности до приема постра-давшим большого количества щелочной жидкости.\n2. Согревать сдавленные конечности!"
+            android:id="@+id/textView105"
+            android:textColor="#ffff0731"
+            android:background="#fff6e6e9" />
+
+    </LinearLayout>
+
+
+</ScrollView>

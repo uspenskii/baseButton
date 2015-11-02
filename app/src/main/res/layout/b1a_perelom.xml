@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Оказание медицинской помощи пострадавшему при открытом переломе:"
+            android:id="@+id/textView50"
+            android:background="#ffc9e4ec" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="При открытом переломе рана, образовавшаяся от выхода наружу кости, будет сильно кровоточить, поэтому вам придется остановить кровотечение. Сделать это можно с помощью повязки из стерильных бинтов, марли и ваты. Повязку следу-ет накладывать очень осторожно, чтобы не трогать выступающих костей. Желательно перед началом наложения повязки дать пострадав-шему обезболивающее средство (анальгин, пенталгин, ренальган, максиган, спазган, триган, спазмал-гин, баралгин и так далее), а затем наложить на конечность шину. \n"
+            android:id="@+id/textView143"
+            android:textColor="#ff2b0b0b" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="правила наложения шины"
+            android:id="@+id/button19"
+            android:onClick="onClickShina"
+            android:background="#ffacd8f6" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\n                      НЕЛЬЗЯ!                            Двигайть сломанную кость и пытаться поставить её концы на место. Если в ране видны костные отломки, к ним ни в коем случае нельзя прикасать-ся и менять их положение."
+            android:id="@+id/textView144"
+            android:textColor="#ffff0731"
+            android:background="#fff6e6e9" />
+    </LinearLayout>
+
+
+</ScrollView>

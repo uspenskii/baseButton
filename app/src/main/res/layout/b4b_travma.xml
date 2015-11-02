@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Правила оказания медицинской помощи при травмах шеи:"
+            android:id="@+id/textView87"
+            android:background="#ffc9e4ec" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="1. Уложить пострадавшего горизонтально на спину на твердую поверхность.\n2. Вызвать скорую медицинскую помощь.\n3. Если пострадавший в сознании, запретить ему двигаться.\n4. Зафиксировать шейный отдел позвоночника: под шею аккуратно подложить небольшую подушку или сверток одежды, а с боков зафикси-ровать голову и шею валиками из свернутых одеял или одежды.\n5. При рвоте и позывах к ней бережно переверните пострадавшего на бок, не перемещая голову и шею относи-тельно туловища (строго одновремен-но).\n6. При остановке дыхания и сердеч-ной деятельности приступить к сердечно-легочной реанимации.\n7. Не перемещать пострадавшего до прибытия скорой помощи, если ему не угрожает дополнительная опасность."
+            android:id="@+id/textView88"
+            android:textColor="#ff2b0b0b" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\nПри проведении реанимации голову не запрокидывать, ограничиться выдвижением челюсти и открытием рта!\n"
+            android:id="@+id/textView89"
+            android:textColor="#ffff0731"
+            android:background="#fff6e6e9" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Правила сердечно-легочной реанимации"
+            android:id="@+id/button10"
+            android:onClick="onClickReanimation"
+            android:background="#ffacd8f6" />
+    </LinearLayout>
+
+
+</ScrollView>

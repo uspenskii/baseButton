@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Павила обработки ожога БЕЗ НАРУШЕНИЯ целостности ожо-говых пузырей:"
+            android:id="@+id/textView51"
+            android:background="#ffc9e4ec" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="\nПодстваить под струю холодной воды на 10-15 минут и/или прило-жить холод на 20-30 минут.\n"
+            android:id="@+id/textView52"
+            android:textColor="#ff2b0b0b" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:id="@+id/imageView14"
+            android:src="@drawable/ojogterm1"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\nПравила обработки ожога С НАРУШЕНИЕМ целостности ожоговых пузырей и кожи:\n"
+            android:id="@+id/textView53" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="              ЗАПРЕЩАЕТСЯ!\nБинтовать и промывать водой обожжённую поверхность кожи."
+            android:id="@+id/textView54"
+            android:textColor="#ffff0731"
+            android:background="#fff6e6e9" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView15"
+            android:src="@drawable/ojogterm2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="1. Накрыть сухой чистой тканью."
+            android:id="@+id/textView55"
+            android:textColor="#ff2b0b0b" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView16"
+            android:src="@drawable/ojogterm3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="2. Поверх сухой ткани приложить холод."
+            android:id="@+id/textView56"
+            android:textColor="#ff2b0b0b" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView17"
+            android:src="@drawable/ojogterm4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="              ЗАПРЕЩАЕТСЯ!\nСмазывать обожжённую по-верхность маслами и жирами при ожогах без нарушения целостности ожоговых пузырей."
+            android:id="@+id/textView57"
+            android:textColor="#ffff0731"
+            android:background="#fff6e6e9" />
+
+    </LinearLayout>
+
+
+</ScrollView>

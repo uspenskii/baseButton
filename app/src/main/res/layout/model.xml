@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mode25">
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:text="Голова"
+        android:id="@+id/button3"
+        android:layout_gravity="right"
+        android:background="#ff71a9e1"
+        android:onClick="onClickGolova" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:text="Шея"
+        android:id="@+id/button20"
+        android:layout_gravity="right"
+        android:background="#ffe8e469"
+        android:onClick="onClickSheia" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:text="Плечо"
+        android:id="@+id/button21"
+        android:layout_gravity="right"
+        android:background="#ff70df6c"
+        android:onClick="onClickPlecho" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button22"
+        android:layout_gravity="right"
+        android:text="Грудная \n клетка"
+        android:background="#fff5a888"
+        android:onClick="onClickGrud" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:text="Предплечье"
+        android:id="@+id/button23"
+        android:layout_gravity="right"
+        android:background="#ff7885d6"
+        android:onClick="onClickPredplecho" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:text="Брюшная \n полость"
+        android:id="@+id/button24"
+        android:layout_gravity="right"
+        android:background="#ffe8a0d8"
+        android:onClick="onClickJivot" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:text="Кисть"
+        android:id="@+id/button26"
+        android:layout_gravity="right"
+        android:background="#ff48d4c9"
+        android:onClick="onClickKist" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:text="Бедро и \n Голень"
+        android:id="@+id/button25"
+        android:layout_gravity="right"
+        android:background="#fff06765"
+        android:onClick="onClickBedro" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:text="Стопа"
+        android:id="@+id/button27"
+        android:layout_gravity="right"
+        android:background="#ff41ac5d"
+        android:onClick="onClickStopa" />
+</LinearLayout>

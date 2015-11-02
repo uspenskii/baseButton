@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Правила оказания медицин-ской помощи при переломе бедренной кости,  поврежде-нии коленного сустава  и костей голени:"
+            android:id="@+id/textView45"
+            android:background="#ffc9e4ec" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="\n1.  Если из-за сильных болей в поврежденной ноге пострадавший не может приподнять ногу или даже пошевелить ею в поло-жении лежа, следует заподозрить перелом бедренной кости, повреждение коленного сустава или перелом костей голени.\n2.   Накладывать шины следует только в том случае, когда на место происшествия невозможно вызвать «скорую помощь» или спасательные службы.\n3.   Если есть возможность вызвать спасательные службы, то поврежденную конечность необходимо зафиксировать в таком устойчивом положении, которое причиняет наименьшую боль.\n  "
+            android:id="@+id/textView46"
+            android:textColor="#ffff0731"
+            android:textSize="20dp"
+            android:background="#fff6e6e9" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:id="@+id/imageView12"
+            android:src="@drawable/perelom3"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="\nПЕРВОЕ Предложить 2-3 таблетки анальгина при отсутствии аллергии на лекарственные средства.\nВТОРОЕ Приложить к месту повреж-дения холод. \nТРЕТЬЕ Положить между ног валик из мягкой ткани.\n"
+            android:id="@+id/textView47"
+            android:textColor="#ff2b0b0b" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:id="@+id/imageView13"
+            android:src="@drawable/perelom4"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="\nЧЕТВЕРТОЕ Зафиксировать шины завязками на груди, затем на стопах."
+            android:id="@+id/textView48"
+            android:textColor="#ff2b0b0b" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\nЕсли из раны в области перелома обильно вытекает кровь и видны отломки костей, сначала следует наложить жгут, затем предло-жить таблетки анальгина и только затем наложить повязку на рану и шину на конечность.\n"
+            android:id="@+id/textView49"
+            android:textColor="#ffff0731"
+            android:background="#fff6e6e9" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Правила наложения жгута"
+            android:id="@+id/button4"
+            android:onClick="onClickJgut"
+            android:background="#ffacd8f6" />
+    </LinearLayout>
+
+</ScrollView>

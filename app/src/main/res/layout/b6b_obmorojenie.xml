@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Симптомы обморожения:"
+            android:id="@+id/textView125"
+            android:background="#ffc9e4ec"
+            android:layout_weight="0.04" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="1. Кожа бледно-синюшная, холодная.\n2. Температурная, тактильная и болевая чувствительность отсутствуют или резко снижены.\n3. Отсутствие капилярного пульса.\n4. При отогревании появляются сильные боли, жжение, зуд, покраснение и отек мягких тканей.\n5. При глубоком повреждении через 12-24 часа возможно появление пузырей с кровянистым содержи-мым."
+            android:id="@+id/textView126"
+            android:textColor="#ff2b0b0b" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\n                      НЕЛЬЗЯ!                         1. Массировать, растирать пораженный участок, натирать маслом, жиром.\n2. Ускорять внешнее согрева-ние обмороженных частей тела.\n3. Прокалывать пузыри\n4. Давать внутрь алкоголь.\n"
+            android:id="@+id/textView127"
+            android:textColor="#ffff0731"
+            android:background="#fff6e6e9" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Правила оказания медицинской помощи при обморожении:"
+            android:id="@+id/textView128"
+            android:background="#ffc9e4ec" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="1. Прекратить дальнейшее охлаждение - как можно быстрее доставить пострадавшего в теплое помещение.\n2. Осторожно снять с обмороженных конечностей обувь и одежду. Немед-ленно закрыть обмороженные места теплоизолирующими повязками, чтобы воздух помещения не грел кожу.\n3. Обеспечить медленное согревание. Можно пораженную конечность поместить в тару с водой при температуре 20 градусов, постепенно повышая температуру воды до 40 гра-дусов в течении 30 минут.\n4. После восстановления кровообра-щения наложить сухую, стерильную, свободную повязку. При отмороже-нии нескольких пальцев проложить между ними ткань.\n5. Дать обезболивающее, если у пострадавшего нет на него аллергии.\n6. Дать обильное питьё, накормить горячей пищей\n7. Доставить пострадавшего в больницу."
+            android:id="@+id/textView129"
+            android:textColor="#ff2b0b0b" />
+    </LinearLayout>
+
+
+</ScrollView>

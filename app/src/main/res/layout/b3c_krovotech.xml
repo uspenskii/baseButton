@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="1.  Капилярное кровотечение - кровь алого цвета вытекает маленькими каплями (медленно выделяется равномерно из всей раны);\n2.  Венозное кровотечение - кровь темно-красного цвета изливается непрерывным, равномерным потоком;\n3.  Артериальное кровотечение - кровь ярко-красного цвета бьет пульсирующей, фонтанирующей струей, выбросы крови соответствуют ритму сердечных сокращений.\n"
+            android:id="@+id/textView65"
+            android:textColor="#ff2b0b0b" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Действия при слабом капилярном кровотечении:"
+            android:id="@+id/textView66"
+            android:background="#ffc9e4ec" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="1. Приподнять поврежденную конечность. \n2. Промыть рану под струей воды, обработать рану дезинфицирующим раствором.\n3. Наложить обычную повязку.\n4. Поврежденную конечность неко-торое время держать неподвижной.\n"
+            android:id="@+id/textView67"
+            android:textColor="#ff2b0b0b" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Действия при венозном или небольшом артериальном кровотечении:"
+            android:id="@+id/textView68"
+            android:background="#ffc9e4ec" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="1. Если нет перелома, приподнять поврежденную конечность.\n2. Если кровотечение достаточно сильное, то нельзя тратить время на обработку раны.\n3. Прижать кровоточащую рану.\n4. Наложить давящую повязку: на рану наложить несколько слоев марли, поверх нее - рулон бинта или плотный комок ваты и туго перебинтовать.\n5. Доставить пострадавшего в больницу. "
+            android:id="@+id/textView69"
+            android:textColor="#ff2b0b0b" />
+
+    </LinearLayout>
+
+
+</ScrollView>

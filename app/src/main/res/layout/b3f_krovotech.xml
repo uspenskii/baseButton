@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Правила оказания первой помощи в случае сильного кровотечения из ран плеча, предплечья и ладони:"
+            android:id="@+id/textView76"
+            android:background="#ffc9e4ec" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="1. Усадить пострадавшего и наложить жгут на поднятую вверх руку. Прижать пальцем конец жгута к руке постра-давшего и растянуть его с максималь-ным усилием.\n2. Сделать несколько оборотов жгута вокруг руки. Убедиться в отсутствии пульса на лучевой артерии и зафик-сировать жгут, заведя резиновую петлю застежку за свободный край жгута. Ещё раз убедиться в отсут-ствии пульса на лучевой артерии.\n "
+            android:id="@+id/textView77"
+            android:textColor="#ff2b0b0b" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Правила наложения жгута"
+            android:id="@+id/button6"
+            android:onClick="onClickJgut"
+            android:background="#ffacd8f6" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="198dp"
+            android:id="@+id/imageView21"
+            android:src="@drawable/krovotech3"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\nЕсли пренебречь этим прави-лом, и не добиться полного исчезновения пульса на лучевой артерии, то уже через 10-15 минут рука отечёт и посинеет. Тогда жгут можно будет снять только при  условии ампутации руки.\n"
+            android:id="@+id/textView78"
+            android:textColor="#ffff0731"
+            android:background="#fff6e6e9" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="3. Наложить на рану стерильную повязку и ещё раз проконтролиро-вать пульс.\n4. Вложить записку о времени наложения жгута и зафиксировать руку с помощью транспортной шины, бинта или косынки. При отсутствии шины и косынки руку можно зафик-сировать с помощью одежды, вложив кисть за борт пиджака или куртки.\n"
+            android:id="@+id/textView79"
+            android:textColor="#ff2b0b0b" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:id="@+id/imageView22"
+            android:src="@drawable/krovotech4"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\nЕсли после наложения жгута рука начала отекать и синеть, нужно немедленно снять жгут и наложить заново под кон-тролем пульса  на лучевой артерии."
+            android:id="@+id/textView80"
+            android:textColor="#ffff0731"
+            android:background="#fff6e6e9" />
+    </LinearLayout>
+
+
+</ScrollView>
